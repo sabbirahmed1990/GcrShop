@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-18T18:50:45Z" name="Default suite" finished-at="2023-11-18T18:50:55Z" duration-ms="9712">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.smoketest@492691d7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-18T18:50:45Z" name="Default test" finished-at="2023-11-18T18:50:55Z" duration-ms="9712">
+      <class name="runners.smoketest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.smoketest@492691d7]" started-at="2023-11-18T18:50:45Z" name="setUpClass" finished-at="2023-11-18T18:50:46Z" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e7ab390]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.smoketest@492691d7]" started-at="2023-11-18T18:50:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-18T18:50:55Z" duration-ms="9366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into gcrshop administrator page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login gcrshop account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.smoketest@492691d7]" started-at="2023-11-18T18:50:55Z" name="tearDownClass" finished-at="2023-11-18T18:50:55Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.smoketest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
